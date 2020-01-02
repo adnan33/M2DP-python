@@ -23,7 +23,7 @@ setuptools.setup(
      description="A Keras implementation of MobileNetV3.",
      long_description=long_description,
      long_description_content_type="text/markdown",
-     url='https://github.com/xiaochus/MobileNetV3',
+     url='https://github.com/adnan33/M2DP-python',
      packages=setuptools.find_packages(),
      license = 'MIT',
      install_requires=REQUIREMENTS,
