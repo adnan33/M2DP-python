@@ -5,7 +5,7 @@ import open3d as o3d
 from open3d import JVisualizer
 from open3d.open3d.geometry import voxel_down_sample,estimate_normals
 import cmath
-from m2dp.M2DP import *
+from m2dp import M2DP
 #reading demo 3d model
 pcd = o3d.io.read_point_cloud("airplane.ply")
 #converting point cloud to numpy array

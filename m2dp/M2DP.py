@@ -110,6 +110,6 @@ def M2DP(cloud):
     A=GetSignatureMatrix(azimuthList, elevationList, cloud_pca, numT, numR, maxRho)
     #run SVD on A and use [u0,v0] as the final output
     u,s,v = np.linalg.svd(A);
-    desM2DP = np.append(u[:,0],v[:,0])
+    desM2DP = np.append(u[:,0],v.T[:,0])
     return desM2DP,A
 
