@@ -13,18 +13,18 @@ except Exception:
 
 setuptools.setup(
 
-     name='mobilenet-v3',  
+     name='m2dp',  
 
-     version='0.1.4',
+     version='0.1.2',
 
-     scripts=['mobilenet_v3/__init__.py','mobilenet_v3/LR_ASPP.py','mobilenet_v3/mobilenet_base.py','mobilenet_v3/mobilenet_v3_large.py','mobilenet_v3/mobilenet_v3_small.py','mobilenet_v3/layers/bilinear_upsampling.py'] ,
-
-     author="xiaochus",
-     description="A Keras implementation of MobileNetV3.",
+     scripts=['m2dp/__init__.py','m2dp/M2DP.py'],
+     author="Adnan64",
+     description="A python implementation of M2DP .",
      long_description=long_description,
      long_description_content_type="text/markdown",
      url='https://github.com/adnan33/M2DP-python',
      packages=setuptools.find_packages(),
+     
      license = 'MIT',
      install_requires=REQUIREMENTS,
      classifiers=[
