@@ -38,7 +38,7 @@ des,A=M2DP(point_cloud)
 
 ## Acknowledgement
 
-Thank [@jubaer145](https://github.com/jubaer145) for your help in this project.
+Thanks to  [@jubaer145](https://github.com/jubaer145) for your help in this project.
 
 ## Reference
 
